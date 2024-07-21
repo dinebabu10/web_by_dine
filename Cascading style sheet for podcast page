@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.page1section1 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png');
+    height: 40vh;
+    background-size: cover;
+    font-family: Roboto;
+    color: #ffffff;
+}
+
+.page1section1 h1 {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.imagess {
+    height: 130px;
+    width: 145px;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.page1section2 section h5 {
+    font-size: 15px;
+    font-weight: 650;
+    text-align: center;
+    color: #151765;
+    font-family: Roboto;
+}
+
+.episodes {
+    text-align: center;
+    font-size: 15px;
+    color: #5a7184;
+}
+
+.puripage1 {
+    background-color: #151765;
+    font-family: Roboto;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.para {
+    color: white;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.human_heading {
+    font-weight: bold;
+}
+
+.podcast_heading {
+    padding-top: 30px;
+}
+
+.cardi2 {
+    font-family: Roboto;
+
+}
+
+.molecular {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.anything {
+    color: #5a7184;
+    font-size: 12px;
+}
+
+.time {
+    font-size: 10px;
+}
+
+.backbutton {
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #151765;
+    color: #ffffff;
+    width: 50px;
+    text-align: center;
+
+}
+
+.buttonmove {
+    padding-top: 5px;
+    padding-right: 5px;
+}

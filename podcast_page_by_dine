@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="page1">
+            <div class="page1section1">
+                <h1>Podcasts</h1>
+            </div>
+            <div class="page1section2 d-flex flex-row justify-content-start">
+                <section>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="imagess" onclick="display('sectionpuri')">
+                    <h5>Puri jagannadh</h5>
+                    <p class="episodes">24 Episodes</p>
+                </section>
+                <section>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="imagess" onclick="display('sectiontedx')">
+                    <h5>Tedx talks</h5>
+                    <p class="episodes">12 Episodes</p>
+                </section>
+            </div>
+            <div class="page1section2 d-flex flex-row justify-content-start">
+                <section>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="imagess" onclick="display('sectionsadhguru')">
+                    <h5>Sadhguru</h5>
+                    <p class="episodes">49 Episodes</p>
+                </section>
+                <section>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="imagess" onclick="display('sectionon')">
+                    <h5>On purpose</h5>
+                    <p class="episodes">49 Episodes</p>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="sectionpuri">
+        <div class="puripage1 d-flex flex-row justify-content-start">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="imagess">
+            <section>
+                <h6 class="podcast_heading">Podcast</h6>
+                <h5 class="human_heading">Puri Jagannadh</h5>
+                <h5 class="human_heading">Podcast</h5>
+                <p class="para">The Puri Jagannadh Podcast</p>
+            </section>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">Molecular Gastronomy</h4>
+                    <p class="anything">Anything happens there it will not cook, ...</p>
+                    <p class="time">15 min</p>
+                </section>
+            </div>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">Mysterious book</h4>
+                    <p class="anything">The Voynich manuscript is the 15th centuary book...</p>
+                    <p class="time">12 min</p>
+                </section>
+            </div>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">Predator Drone</h4>
+                    <p class="anything">The most power full drone.It is 10 feet height</p>
+                    <p class="time">10 min</p>
+                </section>
+            </div>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">Paella</h4>
+                    <p class="anything">The national dish of spain. It was first star...</p>
+                    <p class="time">6 min</p>
+                </section>
+            </div>
+        </div>
+        <section class="buttonmove d-flex flex-row justify-content-end">
+            <button class="backbutton" onclick="display('sectionhome')">Back</button>
+        </section>
+    </div>
+    <div id="sectiontedx">
+        <div class="puripage1 d-flex flex-row justify-content-start">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="imagess">
+            <section>
+                <h6 class="podcast_heading">Podcast</h6>
+                <h5 class="human_heading">The Tedx</h5>
+                <h5 class="human_heading">Podcast</h5>
+                <p class="para">The Tedx Podcast</p>
+            </section>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">The science of friction</h4>
+                    <p class="anything">Tribology: It's a funny sounding word you might...</p>
+                    <p class="time">12 min</p>
+                </section>
+            </div>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">Unleash you</h4>
+                    <p class="anything">What can we learn from the world's most enduringly...</p>
+                    <p class="time">8 min</p>
+                </section>
+            </div>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">3 psychological tricks</h4>
+                    <p class="anything">We all want to save more money--but overall, ...</p>
+                    <p class="time">10 min</p>
+                </section>
+            </div>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">The case for stubborn</h4>
+                    <p class="anything">This decade is a moment of choice unlike any we ...</p>
+                    <p class="time">12 min</p>
+                </section>
+            </div>
+        </div>
+        <section class="buttonmove d-flex flex-row justify-content-end">
+            <button class="backbutton" onclick="display('sectionhome')">Back</button>
+        </section>
+    </div>
+    <div id="sectionsadhguru">
+        <div class="puripage1 d-flex flex-row justify-content-start">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="imagess">
+            <section>
+                <h6 class="podcast_heading">Podcast</h6>
+                <h5 class="human_heading">The Sadhguru</h5>
+                <h5 class="human_heading">Podcast</h5>
+                <p class="para">The Sadhguru Podcast</p>
+            </section>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">Head or heart</h4>
+                    <p class="anything">Sadhguru shares his wisdom on how to make...</p>
+                    <p class="time">16 min</p>
+                </section>
+            </div>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">How to equip yourself</h4>
+                    <p class="anything">Society and human interactions are going...</p>
+                    <p class="time">13 min</p>
+                </section>
+            </div>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">How not to get irritated</h4>
+                    <p class="anything">How do you see an unpleasant spouse the...</p>
+                    <p class="time">15 min</p>
+                </section>
+            </div>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">Isha Kriya</h4>
+                    <p class="anything">Rooted in the timeless wisdom if the yogic...</p>
+                    <p class="time">16 min</p>
+                </section>
+            </div>
+        </div>
+        <section class="buttonmove d-flex flex-row justify-content-end">
+            <button class="backbutton" onclick="display('sectionhome')">Back</button>
+        </section>
+    </div>
+    <div id="sectionon">
+        <div class="puripage1 d-flex flex-row justify-content-start">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="imagess">
+            <section>
+                <h6 class="podcast_heading">Podcast</h6>
+                <h5 class="human_heading">On Purpose with Jay</h5>
+
+                <p class="para">The Jay Shetty podcast</p>
+            </section>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">Patrick Bet David</h4>
+                    <p class="anything">Are you an entrepreneur or have dreams of mental...</p>
+                    <p class="time">10 min</p>
+                </section>
+            </div>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">5 Techniques to cope</h4>
+                    <p class="anything">Does anxiety looms around every corner of your...</p>
+                    <p class="time">4 min</p>
+                </section>
+            </div>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">Radhanath Swami ON</h4>
+                    <p class="anything">World-renowned spritual leader and philanthropist...</p>
+                    <p class="time">12 min</p>
+                </section>
+            </div>
+        </div>
+        <div class="cardi2">
+            <div class="puripage2 d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="imagess">
+                <section>
+                    <h4 class="molecular">3 ways to let go</h4>
+                    <p class="anything">Do the opinions of others veer you from the core...</p>
+                    <p class="time">13 min</p>
+                </section>
+            </div>
+        </div>
+        <section class="buttonmove d-flex flex-row justify-content-end">
+            <button class="backbutton" onclick="display('sectionhome')">Back</button>
+        </section>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
